@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Regulations | Botswana Regulatory Portal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="C:\Users\elvis\Desktop\FS Draft\STYLE.css">
+</head>
+<body>
+    <header class="fade-nav">
+        <div class="header-container">
+            <div class="logo">
+                <img src="C:\Users\elvis\Downloads\LOGO ICON-01.png" alt="BFRP Logo" class="logo-img">
+                <div class="logo-text">
+                    <h1>BFRP</h1>
+                    <span>Botswana Financial Regulatory Portal</span>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Regulations.html" class="active">Regulations</a></li>
+                    <li><a href="Lisencing.html">Licensing</a></li>
+                    <li><a href="Resources.html">Resources</a></li>
+                    <li><a href="News and events.html">News and events</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-toggle"><span></span><span></span><span></span></button>
+        </div>
+    </header>
+
+    <main class="regulations-page">
+        <!-- Hero Section -->
+        <section class="regulations-hero">
+            <div class="container">
+                <h1>Financial Services Regulations</h1>
+                <p class="hero-subtitle">Comprehensive regulatory frameworks governing Botswana's financial sector</p>
+                
+                <div class="sector-tabs">
+                    <button class="tab-btn active" data-tab="banking-regs">Banking Regulations</button>
+                    <button class="tab-btn" data-tab="nonbanking-regs">Non-Bank Regulations</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Banking Regulations -->
+        <section id="banking-regs" class="regulations-section active">
+            <div class="container">
+                <div class="section-header">
+                    <div class="sector-badge">
+                        <i class="fas fa-university"></i>
+                        <span>Banking Sector</span>
+                    </div>
+                    <h2>Banking Regulations & Directives</h2>
+                    <p>Regulatory framework administered by Bank of Botswana</p>
+                </div>
+
+                <!-- Search and Filter -->
+                <div class="regulations-filter">
+                    <div class="search-box">
+                        <input type="text" placeholder="Search banking regulations...">
+                        <button><i class="fas fa-search"></i></button>
+                    </div>
+                    <div class="filter-options">
+                        <select id="banking-filter">
+                            <option value="">All Document Types</option>
+                            <option value="act">Acts of Parliament</option>
+                            <option value="regulation">Regulations</option>
+                            <option value="directive">Directives</option>
+                            <option value="guideline">Guidelines</option>
+                        </select>
+                        <button class="btn-outline"><i class="fas fa-download"></i> Export Results</button>
+                    </div>
+                </div>
+
+                <!-- Regulations Grid -->
+                <div class="regulations-grid">
+                    <!-- Banking Act -->
+                    <div class="regulation-card">
+                        <div class="card-icon">
+                            <i class="fas fa-gavel"></i>
+                        </div>
+                        <div class="card-content">
+                            <div class="regulation-meta">
+                                <span class="doc-type">Act of Parliament</span>
+                                <span class="date">Last amended: 2022</span>
+                            </div>
+                            <h3>Banking Act (Cap 46:04)</h3>
+                            <p class="regulation-desc">Primary legislation governing the operation of commercial banks, merchant banks, and other deposit-taking institutions in Botswana.</p>
+                            <div class="card-actions">
+                                <a href="#" class="btn-outline"><i class="fas fa-eye"></i> View</a>
+                                <a href="#" class="btn-outline"><i class="fas fa-download"></i> Download</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Banking Regulations -->
+                    <div class="regulation-card">
+                        <div class="card-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <div class="card-content">
+                            <div class="regulation-meta">
+                                <span class="doc-type">Regulations</span>
+                                <span class="date">Updated: 2023</span>
+                            </div>
+                            <h3>Banking Regulations</h3>
+                            <p class="regulation-desc">Detailed regulations supplementing the Banking Act, covering capital adequacy, liquidity requirements, and governance standards.</p>
+                            <div class="card-actions">
+                                <a href="#" class="btn-outline"><i class="fas fa-eye"></i> View</a>
+                                <a href="#" class="btn-outline"><i class="fas fa-download"></i> Download</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Prudential Guidelines -->
+                    <div class="regulation-card">
+                        <div class="card-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="card-content">
+                            <div class="regulation-meta">
+                                <span class="doc-type">Guidelines</span>
+                                <span class="date">Issued: 2021</span>
+                            </div>
+                            <h3>Prudential Guidelines</h3>
+                            <p class="regulation-desc">Comprehensive guidelines on risk management, corporate governance, and financial reporting for banking institutions.</p>
+                            <div class="card-actions">
+                                <a href="#" class="btn-outline"><i class="fas fa-eye"></i> View</a>
+                                <a href="#" class="btn-outline"><i class="fas fa-download"></i> Download</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Digital Banking Directive -->
+                    <div class="regulation-card">
+                        <div class="card-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="card-content">
+                            <div class="regulation-meta">
+                                <span class="doc-type">Directive</span>
+                                <span class="date">Effective: 2023</span>
+                            </div>
+                            <h3>Digital Banking Services Directive</h3>
+                            <p class="regulation-desc">Regulatory framework for digital banking platforms, mobile money services, and electronic payment systems.</p>
+                            <div class="card-actions">
+                                <a href="#" class="btn-outline"><i class="fas fa-eye"></i> View</a>
+                                <a href="#" class="btn-outline"><i class="fas fa-download"></i> Download</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- AML/CFT Guidelines -->
+                    <div class="regulation-card">
+                        <div class="card-icon">
+                            <i class="fas fa-user-shield"></i>
+                        </div>
+                        <div class="card-content">
+                            <div class="regulation-meta">
+                                <span class="doc-type">Guidelines</span>
+                                <span class="date">Revised: 2022</span>
+                            </div>
+                            <h3>AML/CFT Compliance Guidelines</h3>
+                            <p class="regulation-desc">Anti-Money Laundering and Countering Financing of Terrorism requirements for financial institutions.</p>
+                            <div class="card-actions">
+                                <a href="#" class="btn-outline"><i class="fas fa-eye"></i> View</a>
+                                <a href="#" class="btn-outline"><i class="fas fa-download"></i> Download</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Consumer Protection -->
+                    <div class="regulation-card">
+                        <div class="card-icon">
+                            <i class="fas fa-hand-holding-heart"></i>
+                        </div>
+                        <div class="card-content">
+                            <div class="regulation-meta">
+                                <span class="doc-type">Directive</span>
+                                <span class="date">Effective: 2020</span>
+                            </div>
+                            <h3>Consumer Protection Directive</h3>
+                            <p class="regulation-desc">Requirements for fair treatment of customers, transparent pricing, and complaint resolution mechanisms.</p>
+                            <div class="card-actions">
+                                <a href="#" class="btn-outline"><i class="fas fa-eye"></i> View</a>
+                                <a href="#" class="btn-outline"><i class="fas fa-download"></i> Download</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Non-Banking Regulations -->
+        <section id="nonbanking-regs" class="regulations-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="sector-badge">
+                        <i class="fas fa-landmark"></i>
+                        <span>Non-Bank Sector</span>
+                    </div>
+                    <h2>Non-Bank Financial Regulations</h2>
+                    <p>Regulatory framework administered by NBFIRA</p>
+                </div>
+
+                <!-- Search and Filter -->
+                <div class="regulations-filter">
+                    <div class="search-box">
+                        <input type="text" placeholder="Search non-bank regulations...">
+                        <button><i class="fas fa-search"></i></button>
+                    </div>
+                    <div class="filter-options">
+                        <select id="nonbanking-filter">
+                            <option value="">All Document Types</option>
+                            <option value="act">Acts of Parliament</option>
+                            <option value="regulation">Regulations</option>
+                            <option value="directive">Directives</option>
+                            <option value="guideline">Guidelines</option>
+                        </select>
+                        <button class="btn-outline"><i class="fas fa-download"></i> Export Results</button>
+                    </div>
+                </div>
+
+                <!-- Regulations Grid -->
+                <div class="regulations-grid">
+                    <!-- NBFIRA Act -->
+                    <div class="regulation-card">
+                        <div class="card-icon" style="background: linear-gradient(135deg, #7209b7, #b5179e);">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <div class="card-content">
+                            <div class="regulation-meta">
+                                <span class="doc-type">Act of Parliament</span>
+                                <span class="date">Last amended: 2021</span>
+                            </div>
+                            <h3>NBFIRA Act (Cap 46:05)</h3>
+                            <p class="regulation-desc">Framework for regulation of non-bank financial institutions including insurance, pensions, and microfinance.</p>
+                            <div class="card-actions">
+                                <a href="#" class="btn-outline"><i class="fas fa-eye"></i> View</a>
+                                <a href="#" class="btn-outline"><i class="fas fa-download"></i> Download</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Insurance Regulations -->
+                    <div class="regulation-card">
+                        <div class="card-icon" style="background: linear-gradient(135deg, #7209b7, #b5179e);">
+                            <i class="fas fa-umbrella"></i>
+                        </div>
+                        <div class="card-content">
+                            <div class="regulation-meta">
+                                <span class="doc-type">Regulations</span>
+                                <span class="date">Updated: 2022</span>
+                            </div>
+                            <h3>Insurance Industry Regulations</h3>
+                            <p class="regulation-desc">Comprehensive rules governing insurance companies, brokers, and agents operating in Botswana.</p>
+                            <div class="card-actions">
+                                <a href="#" class="btn-outline"><i class="fas fa-eye"></i> View</a>
+                                <a href="#" class="btn-outline"><i class="fas fa-download"></i> Download</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Collective Investment Schemes -->
+                    <div class="regulation-card">
+                        <div class="card-icon" style="background: linear-gradient(135deg, #7209b7, #b5179e);">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="card-content">
+                            <div class="regulation-meta">
+                                <span class="doc-type">Regulations</span>
+                                <span class="date">Effective: 2020</span>
+                            </div>
+                            <h3>Collective Investment Schemes</h3>
+                            <p class="regulation-desc">Regulatory framework for unit trusts, mutual funds, and other collective investment vehicles.</p>
+                            <div class="card-actions">
+                                <a href="#" class="btn-outline"><i class="fas fa-eye"></i> View</a>
+                                <a href="#" class="btn-outline"><i class="fas fa-download"></i> Download</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Microfinance Regulations -->
+                    <div class="regulation-card">
+                        <div class="card-icon" style="background: linear-gradient(135deg, #7209b7, #b5179e);">
+                            <i class="fas fa-hand-holding-usd"></i>
+                        </div>
+                        <div class="card-content">
+                            <div class="regulation-meta">
+                                <span class="doc-type">Regulations</span>
+                                <span class="date">Revised: 2023</span>
+                            </div>
+                            <h3>Microfinance Regulations</h3>
+                            <p class="regulation-desc">Rules governing micro-lending institutions, credit-only microfinance, and community-based financial services.</p>
+                            <div class="card-actions">
+                                <a href="#" class="btn-outline"><i class="fas fa-eye"></i> View</a>
+                                <a href="#" class="btn-outline"><i class="fas fa-download"></i> Download</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pension Funds -->
+                    <div class="regulation-card">
+                        <div class="card-icon" style="background: linear-gradient(135deg, #7209b7, #b5179e);">
+                            <i class="fas fa-piggy-bank"></i>
+                        </div>
+                        <div class="card-content">
+                            <div class="regulation-meta">
+                                <span class="doc-type">Directive</span>
+                                <span class="date">Issued: 2021</span>
+                            </div>
+                            <h3>Pension Fund Governance</h3>
+                            <p class="regulation-desc">Requirements for pension fund administration, trustee qualifications, and member protection.</p>
+                            <div class="card-actions">
+                                <a href="#" class="btn-outline"><i class="fas fa-eye"></i> View</a>
+                                <a href="#" class="btn-outline"><i class="fas fa-download"></i> Download</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Fintech Sandbox -->
+                    <div class="regulation-card">
+                        <div class="card-icon" style="background: linear-gradient(135deg, #7209b7, #b5179e);">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="card-content">
+                            <div class="regulation-meta">
+                                <span class="doc-type">Guidelines</span>
+                                <span class="date">Launched: 2022</span>
+                            </div>
+                            <h3>Fintech Regulatory Sandbox</h3>
+                            <p class="regulation-desc">Framework for testing innovative financial products and services in a controlled environment.</p>
+                            <div class="card-actions">
+                                <a href="#" class="btn-outline"><i class="fas fa-eye"></i> View</a>
+                                <a href="#" class="btn-outline"><i class="fas fa-download"></i> Download</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Regulatory Updates -->
+        <section class="updates-section">
+            <div class="container">
+                <h2>Recent Regulatory Updates</h2>
+                <p class="section-subtitle">Latest changes and amendments to financial regulations in Botswana</p>
+                
+                <div class="updates-grid">
+                    <div class="update-card">
+                        <div class="update-date">15 Nov 2023</div>
+                        <h3>Revised Capital Requirements for Microfinance</h3>
+                        <p>NBFIRA has issued updated minimum capital requirements for microfinance institutions, effective Q1 2024.</p>
+                        <a href="#" class="update-link">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <div class="update-card">
+                        <div class="update-date">02 Nov 2023</div>
+                        <h3>New AML/CFT Reporting Forms</h3>
+                        <p>Bank of Botswana introduces standardized reporting templates for suspicious transaction reporting.</p>
+                        <a href="#" class="update-link">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <div class="update-card">
+                        <div class="update-date">25 Oct 2023</div>
+                        <h3>Digital Asset Regulations Draft</h3>
+                        <p>Consultation paper released for proposed framework governing cryptocurrency services.</p>
+                        <a href="#" class="update-link">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <div class="update-card">
+                        <div class="update-date">12 Oct 2023</div>
+                        <h3>Insurance Product Approval Process</h3>
+                        <p>Streamlined procedures for new insurance product filings implemented by NBFIRA.</p>
+                        <a href="#" class="update-link">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="text-center" style="margin-top: 40px;">
+                    <a href="News and events.html" class="btn-primary">View All Updates</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-col footer-about">
+                    <div class="logo">
+                        <img src="C:\Users\elvis\Downloads\LOGO ICON-01.png" alt="BFRP Logo" class="logo-img">
+                        <div class="logo-text">
+                            <h3>BFRP</h3>
+                            <span>Botswana Financial Regulatory Portal</span>
+                        </div>
+                    </div>
+                    <p>Providing comprehensive financial regulatory information and services for Botswana's financial sector.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="regulations-banking.html">Banking Regulations</a></li>
+                        <li><a href="regulations-nonbank.html">Non-Bank Regulations</a></li>
+                        <li><a href="licensing-banking.html">Banking Licensing</a></li>
+                        <li><a href="licensing-nonbank.html">Non-Bank Licensing</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Financial Sector Office, Gaborone, Botswana</p>
+                    <p><i class="fas fa-phone"></i> +267 123 4567</p>
+                    <p><i class="fas fa-envelope"></i> info@bfrp.gov.bw</p>
+                    <p><i class="fas fa-clock"></i> Mon-Fri: 8:00 AM - 5:00 PM</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Botswana Financial Regulatory Portal. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="C:\Users\elvis\Desktop\FS Draft\MAIN.js"></script>
+    <script>
+        // Regulations Page Specific JavaScript
+        document.addEventListener('DOMContentLoaded', function() {
+            // Tab functionality
+            const tabButtons = document.querySelectorAll('.tab-btn');
+            const tabContents = document.querySelectorAll('.regulations-section');
+            
+            tabButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Remove active class from all buttons and contents
+                    tabButtons.forEach(btn => btn.classList.remove('active'));
+                    tabContents.forEach(content => content.classList.remove('active'));
+                    
+                    // Add active class to clicked button
+                    this.classList.add('active');
+                    
+                    // Show corresponding content
+                    const tabId = this.getAttribute('data-tab');
+                    document.getElementById(tabId).classList.add('active');
+                });
+            });
+            
+            // Filter functionality
+            const setupFilter = (filterId, gridClass) => {
+                const filter = document.getElementById(filterId);
+                if (filter) {
+                    filter.addEventListener('change', function() {
+                        const value = this.value.toLowerCase();
+                        const cards = document.querySelectorAll(`.${gridClass} .regulation-card`);
+                        
+                        cards.forEach(card => {
+                            const cardType = card.querySelector('.doc-type').textContent.toLowerCase();
+                            if (value === '' || cardType.includes(value)) {
+                                card.style.display = 'flex';
+                            } else {
+                                card.style.display = 'none';
+                            }
+                        });
+                    });
+                }
+            };
+            
+            setupFilter('banking-filter', 'regulations-grid');
+            setupFilter('nonbanking-filter', 'regulations-grid');
+            
+            // Search functionality
+            const setupSearch = (inputSelector, gridClass) => {
+                const input = document.querySelector(inputSelector);
+                if (input) {
+                    input.addEventListener('input', function() {
+                        const searchTerm = this.value.toLowerCase();
+                        const cards = document.querySelectorAll(`.${gridClass} .regulation-card`);
+                        
+                        cards.forEach(card => {
+                            const title = card.querySelector('h3').textContent.toLowerCase();
+                            const desc = card.querySelector('.regulation-desc').textContent.toLowerCase();
+                            
+                            if (title.includes(searchTerm) || desc.includes(searchTerm)) {
+                                card.style.display = 'flex';
+                            } else {
+                                card.style.display = 'none';
+                            }
+                        });
+                    });
+                }
+            };
+            
+            setupSearch('#banking-regs .search-box input', 'regulations-grid');
+            setupSearch('#nonbanking-regs .search-box input', 'regulations-grid');
+            
+            // Animation for cards
+            const animateCards = function() {
+                const cards = document.querySelectorAll('.regulation-card, .update-card');
+                
+                cards.forEach((card, index) => {
+                    const cardPosition = card.getBoundingClientRect().top;
+                    const windowHeight = window.innerHeight;
+                    
+                    if (cardPosition < windowHeight - 100) {
+                        setTimeout(() => {
+                            card.style.opacity = '1';
+                            card.style.transform = 'translateY(0)';
+                        }, index * 100);
+                    }
+                });
+            };
+            
+            // Set initial state
+            document.querySelectorAll('.regulation-card, .update-card').forEach(card => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(30px)';
+                card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            });
+            
+            // Check on load and scroll
+            window.addEventListener('load', animateCards);
+            window.addEventListener('scroll', animateCards);
+        });
+    </script>
+</body>
+</html>

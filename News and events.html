@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News & Events | Botswana Financial Regulatory Portal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="C:\Users\elvis\Desktop\FS Draft\STYLE.css">
+</head>
+<body>
+    <header class="fade-nav">
+        <div class="header-container">
+            <div class="logo">
+                <img src="C:\Users\elvis\Desktop\FS Draft\images\logo.png" alt="BFRP Logo" class="logo-img">
+                <div class="logo-text">
+                    <h1>BFRP</h1>
+                    <span>Botswana Financial Regulatory Portal</span>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="Regulations.html">Regulations</a></li>
+                <li><a href="Lisencing.html">Licensing</a></li>
+                <li><a href="Resources.html">Resources</a></li>
+                <li><a href="News and events.html"class="active">News and events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </nav>
+            <button class="mobile-menu-toggle"><span></span><span></span><span></span></button>
+        </div>
+    </header>
+
+    <div class="news-hero">
+        <div class="container">
+            <h1>News & Events</h1>
+            <p class="hero-subtitle">Stay updated with the latest regulatory developments, public notices, and events in Botswana's financial sector</p>
+            
+            <div class="news-filter">
+                <div class="filter-tabs">
+                    <button class="filter-tab active" data-filter="all">All Updates</button>
+                    <button class="filter-tab" data-filter="news">News</button>
+                    <button class="filter-tab" data-filter="notices">Public Notices</button>
+                    <button class="filter-tab" data-filter="releases">Press Releases</button>
+                    <button class="filter-tab" data-filter="events">Events</button>
+                </div>
+                
+                <div class="time-filter">
+                    <select id="time-period">
+                        <option value="all">All Time</option>
+                        <option value="month">This Month</option>
+                        <option value="quarter">Last 3 Months</option>
+                        <option value="year">This Year</option>
+                        <option value="past">Past Events</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <section class="news-section">
+            <div class="container">
+                <div class="news-grid">
+                    <!-- News Item 1 -->
+                    <div class="news-card" data-category="news" data-date="2023-11-15">
+                        <div class="news-badge">News</div>
+                        <div class="news-date">15 November 2023</div>
+                        <h3>Bank of Botswana Issues New Guidelines on Digital Banking</h3>
+                        <p>The central bank has released updated regulations for digital banking services to enhance cybersecurity and consumer protection in Botswana's growing fintech sector.</p>
+                        <a href="#" class="news-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <!-- Event Item 1 -->
+                    <div class="news-card" data-category="events" data-date="2023-12-05">
+                        <div class="news-badge">Upcoming Event</div>
+                        <div class="news-date">05 December 2023</div>
+                        <h3>Annual Financial Sector Conference 2023</h3>
+                        <p>Join regulators and industry leaders at the GICC to discuss "The Future of Financial Regulation in a Digital Botswana". Registration now open.</p>
+                        <a href="#" class="news-link">Register Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <!-- Press Release 1 -->
+                    <div class="news-card" data-category="releases" data-date="2023-11-10">
+                        <div class="news-badge">Press Release</div>
+                        <div class="news-date">10 November 2023</div>
+                        <h3>NBFIRA Announces New Licensing Framework for Microfinance Institutions</h3>
+                        <p>The Non-Bank Financial Institutions Regulatory Authority has introduced streamlined licensing procedures for microfinance providers to promote financial inclusion.</p>
+                        <a href="#" class="news-link">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <!-- Public Notice 1 -->
+                    <div class="news-card" data-category="notices" data-date="2023-10-28">
+                        <div class="news-badge">Public Notice</div>
+                        <div class="news-date">28 October 2023</div>
+                        <h3>Public Consultation: Proposed Amendments to Insurance Regulations</h3>
+                        <p>NBFIRA invites public comments on proposed changes to insurance sector regulations until 15 December 2023.</p>
+                        <a href="#" class="news-link">Submit Comments <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <!-- Past Event 1 -->
+                    <div class="news-card" data-category="events" data-date="2023-09-20">
+                        <div class="news-badge">Past Event</div>
+                        <div class="news-date">20 September 2023</div>
+                        <h3>Fintech Innovation Workshop</h3>
+                        <p>Recap and presentations now available from the regulator-fintech collaboration workshop held in Gaborone.</p>
+                        <a href="#" class="news-link">View Materials <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <!-- News Item 2 -->
+                    <div class="news-card" data-category="news" data-date="2023-10-15">
+                        <div class="news-badge">News</div>
+                        <div class="news-date">15 October 2023</div>
+                        <h3>FIA Launches New Anti-Money Laundering Portal</h3>
+                        <p>The Financial Intelligence Agency has introduced a digital platform for streamlined reporting of suspicious transactions by regulated entities.</p>
+                        <a href="#" class="news-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <!-- Public Notice 2 -->
+                    <div class="news-card" data-category="notices" data-date="2023-11-01">
+                        <div class="news-badge">Public Notice</div>
+                        <div class="news-date">01 November 2023</div>
+                        <h3>Reminder: Annual Compliance Reporting Deadline</h3>
+                        <p>All licensed financial institutions must submit their annual compliance reports by 31 January 2024 through the BFRP portal.</p>
+                        <a href="#" class="news-link">View Requirements <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <!-- Press Release 2 -->
+                    <div class="news-card" data-category="releases" data-date="2023-09-05">
+                        <div class="news-badge">Press Release</div>
+                        <div class="news-date">05 September 2023</div>
+                        <h3>BoB and NBFIRA Sign MoU for Enhanced Regulatory Cooperation</h3>
+                        <p>The memorandum establishes formal mechanisms for coordination between Botswana's banking and non-bank financial regulators.</p>
+                        <a href="#" class="news-link">View Release <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="news-pagination">
+                    <button class="pagination-btn active">1</button>
+                    <button class="pagination-btn">2</button>
+                    <button class="pagination-btn">3</button>
+                    <button class="pagination-btn next">Next <i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+        
+        <section class="subscribe-section">
+            <div class="container">
+                <div class="subscribe-card">
+                    <div class="subscribe-content">
+                        <h2>Stay Informed</h2>
+                        <p>Subscribe to receive email alerts for new regulatory updates, public notices, and upcoming events in Botswana's financial sector.</p>
+                    </div>
+                    <div class="subscribe-form">
+                        <input type="email" placeholder="Enter your email address">
+                        <button class="btn-primary">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-col footer-about">
+                    <div class="logo">
+                        <img src="images/logo.png" alt="BFRP Logo" class="logo-img">
+                        <div class="logo-text">
+                            <h3>BFRP</h3>
+                            <span>Botswana Financial Regulatory Portal</span>
+                        </div>
+                    </div>
+                    <p>Providing comprehensive financial regulatory information and services for Botswana's financial sector.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="regulations-banking.html">Banking Regulations</a></li>
+                        <li><a href="regulations-nonbank.html">Non-Bank Regulations</a></li>
+                        <li><a href="licensing-banking.html">Banking Licensing</a></li>
+                        <li><a href="licensing-nonbank.html">Non-Bank Licensing</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Financial Sector Office, Gaborone, Botswana</p>
+                    <p><i class="fas fa-phone"></i> +267 123 4567</p>
+                    <p><i class="fas fa-envelope"></i> info@bfrp.gov.bw</p>
+                    <p><i class="fas fa-clock"></i> Mon-Fri: 8:00 AM - 5:00 PM</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Botswana Financial Regulatory Portal. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="C:\Users\elvis\Desktop\FS Draft\MAIN.js"></script>
+    <script>
+        // News & Events Page Specific JavaScript
+        document.addEventListener('DOMContentLoaded', function() {
+            // Filter functionality
+            const filterTabs = document.querySelectorAll('.filter-tab');
+            const timeFilter = document.getElementById('time-period');
+            const newsCards = document.querySelectorAll('.news-card');
+            
+            // Category filter
+            filterTabs.forEach(tab => {
+                tab.addEventListener('click', function() {
+                    filterTabs.forEach(t => t.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    const filter = this.dataset.filter;
+                    applyFilters(filter, timeFilter.value);
+                });
+            });
+            
+            // Time period filter
+            timeFilter.addEventListener('change', function() {
+                const activeTab = document.querySelector('.filter-tab.active');
+                applyFilters(activeTab.dataset.filter, this.value);
+            });
+            
+            function applyFilters(categoryFilter, timeFilter) {
+                const now = new Date();
+                
+                newsCards.forEach(card => {
+                    const cardCategory = card.dataset.category;
+                    const cardDate = new Date(card.dataset.date);
+                    let showCard = true;
+                    
+                    // Apply category filter
+                    if (categoryFilter !== 'all' && !card.dataset.category.includes(categoryFilter)) {
+                        showCard = false;
+                    }
+                    
+                    // Apply time filter
+                    if (timeFilter !== 'all' && showCard) {
+                        const timeDiff = now - cardDate;
+                        const daysDiff = timeDiff / (1000 * 60 * 60 * 24);
+                        
+                        if (timeFilter === 'month' && daysDiff > 30) {
+                            showCard = false;
+                        } else if (timeFilter === 'quarter' && daysDiff > 90) {
+                            showCard = false;
+                        } else if (timeFilter === 'year' && daysDiff > 365) {
+                            showCard = false;
+                        } else if (timeFilter === 'past' && cardDate > now) {
+                            showCard = false;
+                        }
+                    }
+                    
+                    // Show/hide card
+                    if (showCard) {
+                        card.style.display = 'block';
+                        setTimeout(() => {
+                            card.style.opacity = '1';
+                            card.style.transform = 'translateY(0)';
+                        }, 100);
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            }
+            
+            // Initialize cards with animation
+            newsCards.forEach((card, index) => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(20px)';
+                card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+                
+                setTimeout(() => {
+                    card.style.opacity = '1';
+                    card.style.transform = 'translateY(0)';
+                }, index * 100);
+            });
+            
+            // Pagination functionality
+            const paginationBtns = document.querySelectorAll('.pagination-btn');
+            paginationBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    if (!this.classList.contains('next')) {
+                        paginationBtns.forEach(b => b.classList.remove('active'));
+                        this.classList.add('active');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

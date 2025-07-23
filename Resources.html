@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Resources | Botswana Regulatory Portal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="C:\Users\elvis\Desktop\FS Draft\STYLE.css">
+</head>
+<body>
+    <header class="fade-nav">
+        <div class="header-container">
+            <div class="logo">
+                <img src="assets/LOGO ICON-01.png" alt="BFRP Logo" class="logo-img">
+                <div class="logo-text">
+                    <h1>BFRP</h1>
+                    <span>Botswana Financial Regulatory Portal</span>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Regulations.html">Regulations</a></li>
+                    <li><a href="Lisencing.html">Licensing</a></li>
+                    <li><a href="resources.html" class="active">Resources</a></li>
+                     <li><a href="contact.html">News and events</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="sign up.login.html">Login</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-toggle"><span></span><span></span><span></span></button>
+        </div>
+    </header>
+
+    <main class="resources-page">
+        <!-- Hero Section -->
+        <section class="resources-hero">
+            <div class="container">
+                <h1>Botswana Financial Resources Center</h1>
+                <p class="hero-subtitle">Comprehensive tools, templates, and guidance for financial sector compliance</p>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search resources, forms, or guidelines..." id="global-search">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <button class="btn-text advanced-search-toggle">Advanced Search Options <i class="fas fa-chevron-down"></i></button>
+                
+                <div class="advanced-search">
+                    <div class="search-filters">
+                        <div class="filter-group">
+                            <label for="resource-type">Resource Type</label>
+                            <select id="resource-type">
+                                <option value="">All Types</option>
+                                <option value="form">Forms</option>
+                                <option value="manual">Manuals</option>
+                                <option value="video">Videos</option>
+                                <option value="template">Templates</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label for="regulator">Regulator</label>
+                            <select id="regulator">
+                                <option value="">All Regulators</option>
+                                <option value="bob">Bank of Botswana</option>
+                                <option value="nbfira">NBFIRA</option>
+                                <option value="fia">FIA</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label for="date-range">Date Range</label>
+                            <select id="date-range">
+                                <option value="">Any Time</option>
+                                <option value="month">Last Month</option>
+                                <option value="year">Last Year</option>
+                                <option value="2years">Last 2 Years</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label for="file-type">File Type</label>
+                            <select id="file-type">
+                                <option value="">All Formats</option>
+                                <option value="pdf">PDF</option>
+                                <option value="doc">Word</option>
+                                <option value="xls">Excel</option>
+                                <option value="ppt">PowerPoint</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="filter-actions">
+                        <button class="btn-outline">Reset Filters</button>
+                        <button class="btn-primary">Apply Filters</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Compliance Tools Section -->
+        <section class="featured-tools">
+            <div class="container">
+                <h2>Featured Compliance Tools</h2>
+                <div class="tools-grid">
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <h3>Compliance Checklist Generator</h3>
+                        <p>Create customized compliance checklists based on your institution type and activities</p>
+                        <a href="#" class="btn-primary">Launch Tool <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <i class="fas fa-bell"></i>
+                        </div>
+                        <h3>Regulatory Change Tracker</h3>
+                        <p>Monitor upcoming regulatory changes and their impact on your operations</p>
+                        <a href="#" class="btn-primary">Track Changes <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <h3>Smart Document Finder</h3>
+                        <p>Quickly locate required forms and templates by regulatory category</p>
+                        <a href="#" class="btn-primary">Find Documents <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resource Categories -->
+        <section class="resource-categories">
+            <div class="container">
+                <h2>Resource Categories</h2>
+                <div class="categories-grid">
+                    <div class="category-card">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-file-signature"></i>
+                            </div>
+                            <h3>Forms & Templates</h3>
+                        </div>
+                        <ul class="resource-list">
+                            <li><a href="#"><i class="fas fa-download"></i> License Application Forms</a></li>
+                            <li><a href="#"><i class="fas fa-download"></i> Regulatory Reporting Templates</a></li>
+                            <li><a href="#"><i class="fas fa-download"></i> Compliance Certificates</a></li>
+                            <li><a href="#"><i class="fas fa-download"></i> Disclosure Templates</a></li>
+                        </ul>
+                        <a href="#" class="category-link">View All Forms <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                    
+                    <div class="category-card">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-book-open"></i>
+                            </div>
+                            <h3>Guidance Manuals</h3>
+                        </div>
+                        <ul class="resource-list">
+                            <li><a href="#"><i class="fas fa-file-pdf"></i> AML/CFT Implementation Guide</a></li>
+                            <li><a href="#"><i class="fas fa-file-pdf"></i> Consumer Protection Handbook</a></li>
+                            <li><a href="#"><i class="fas fa-file-pdf"></i> Risk Management Framework</a></li>
+                            <li><a href="#"><i class="fas fa-file-pdf"></i> Corporate Governance Guidelines</a></li>
+                        </ul>
+                        <a href="#" class="category-link">View All Manuals <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                    
+                    <div class="category-card">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-chalkboard-teacher"></i>
+                            </div>
+                            <h3>Training Materials</h3>
+                        </div>
+                        <ul class="resource-list">
+                            <li><a href="#"><i class="fas fa-video"></i> Compliance Officer Training</a></li>
+                            <li><a href="#"><i class="fas fa-video"></i> Board Governance Modules</a></li>
+                            <li><a href="#"><i class="fas fa-file-powerpoint"></i> AML Awareness Presentation</a></li>
+                            <li><a href="#"><i class="fas fa-file-powerpoint"></i> New Regulations Briefing</a></li>
+                        </ul>
+                        <a href="#" class="category-link">View All Training <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Regulatory Spotlight Section -->
+        <section class="regulatory-spotlight">
+            <div class="container">
+                <h2>Regulatory Spotlight</h2>
+                <div class="spotlight-grid">
+                    <div class="spotlight-card">
+                        <span class="spotlight-badge">New</span>
+                        <span class="spotlight-date">June 15, 2023</span>
+                        <h3>Updated AML/CFT Guidelines</h3>
+                        <p>The Financial Intelligence Agency has released updated Anti-Money Laundering guidelines with new reporting requirements effective October 2023.</p>
+                        <a href="#" class="btn-outline">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <div class="spotlight-card">
+                        <span class="spotlight-badge">Webinar</span>
+                        <span class="spotlight-date">June 28, 2023</span>
+                        <h3>Digital Banking Regulations</h3>
+                        <p>Join our webinar with Bank of Botswana officials discussing the new framework for digital banking operations in Botswana.</p>
+                        <a href="#" class="btn-outline">Register Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <div class="spotlight-card">
+                        <span class="spotlight-badge">Deadline</span>
+                        <span class="spotlight-date">July 31, 2023</span>
+                        <h3>Quarterly Reporting Submissions</h3>
+                        <p>Reminder for all licensed financial institutions to submit Q2 2023 prudential returns by the end of next month.</p>
+                        <a href="#" class="btn-outline">View Requirements <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-accordion">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <h3>How do I submit a license application?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>License applications must be submitted through the online portal with all required supporting documents. The complete process is outlined in our <a href="#">License Application Guide</a> which includes a checklist of requirements.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <h3>Where can I find reporting templates?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>All current reporting templates are available in the <a href="#">Forms & Templates</a> section of this portal. You can filter by regulator and document type to find the specific forms you need.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <h3>How often are compliance requirements updated?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Regulatory requirements are typically reviewed annually, with interim updates as needed. We recommend subscribing to our <a href="#">Regulatory Updates</a> service to receive notifications of changes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-cta">
+                    <p>Can't find what you're looking for?</p>
+                    <a href="#" class="btn-primary chat-toggle"><i class="fas fa-robot"></i> Ask Mpotse AI Assistant</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-col footer-about">
+                    <div class="logo">
+                        <img src="assets/LOGO ICON-01.png" alt="BFRP Logo" class="logo-img">
+                        <div class="logo-text">
+                            <h3>BFRP</h3>
+                            <span>Botswana Financial Regulatory Portal</span>
+                        </div>
+                    </div>
+                    <p>Providing comprehensive financial regulatory information and services for Botswana's financial sector.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="regulations-banking.html">Banking Regulations</a></li>
+                        <li><a href="regulations-nonbank.html">Non-Bank Regulations</a></li>
+                        <li><a href="licensing-banking.html">Banking Licensing</a></li>
+                        <li><a href="licensing-nonbank.html">Non-Bank Licensing</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Financial Sector Office, Gaborone, Botswana</p>
+                    <p><i class="fas fa-phone"></i> +267 123 4567</p>
+                    <p><i class="fas fa-envelope"></i> info@bfrp.gov.bw</p>
+                    <p><i class="fas fa-clock"></i> Mon-Fri: 8:00 AM - 5:00 PM</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Botswana Financial Regulatory Portal. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chatbot Container -->
+    <div class="chatbot-container">
+        <div class="chatbot-button">
+            <span>Mpotse</span>
+            <i class="fas fa-robot"></i>
+        </div>
+        <div class="chatbot-window">
+            <div class="chatbot-header">
+                <h4>Mpotse AI Assistant</h4>
+                <button class="close-chatbot"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="chatbot-messages">
+                <div class="bot-message">
+                    <div class="message-content">
+                        <p>Hello! I'm Mpotse, your Botswana Financial Regulatory Assistant. How can I help you today?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" placeholder="Ask a regulatory question...">
+                <button class="send-button"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="C:\Users\elvis\Desktop\FS Draft\MAIN.js"></script>
+    <script>
+        // Toggle advanced search
+        document.querySelector('.advanced-search-toggle').addEventListener('click', function() {
+            this.querySelector('i').classList.toggle('fa-chevron-up');
+            this.querySelector('i').classList.toggle('fa-chevron-down');
+            document.querySelector('.advanced-search').classList.toggle('active');
+        });
+
+        // FAQ accordion functionality
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                question.classList.toggle('active');
+                answer.classList.toggle('show');
+            });
+        });
+
+        // Chatbot toggle
+        document.querySelector('.chatbot-button').addEventListener('click', function() {
+            document.querySelector('.chatbot-window').classList.toggle('active');
+        });
+
+        document.querySelector('.close-chatbot').addEventListener('click', function() {
+            document.querySelector('.chatbot-window').classList.remove('active');
+        });
+    </script>
+</body>
+</html>

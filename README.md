@@ -26,6 +26,7 @@ project-root/
 ├── Regulations.html        # Regulations section
 ├── Lisencing.html          # Licensing section
 ├── Resources.html          # Resources section
+├── News and events.html    # News & Events section (NEW)
 ├── contact.html            # Contact page
 ├── STYLE.css               # Main stylesheet
 ├── MAIN.js                 # Main JavaScript file
@@ -35,8 +36,8 @@ project-root/
     ├── licensing.jpg       # Carousel image 2
     ├── mpotse.jpg          # Carousel image 3
     ├── reg.jpg             # Regulations section image
-    └── get licensed.jpg    # Licensing section image
-```
+    ├── get licensed.jpg    # Licensing section image
+    └── event.jpg           # (Optional) News/Events image (NEW)
 
 ## Installation
 No installation required for end-users. The website is designed to run directly in modern web browsers.
